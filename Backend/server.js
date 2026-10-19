@@ -22,13 +22,14 @@ connectDB();
 const app = express();
 
 // Middlewares
-app.use(cors());
-app.use(express.json()); 
+// app.use(cors());
 
-// app.use(cors({
-//   origin: 'https://cy-frontend.vercel.app', // Apna frontend URL yahan daalein
-//   credentials: true
-// }));
+app.use(cors({
+  origin: 'https://cy-products-frontend.vercel.app', // Apna frontend URL yahan daalein
+  credentials: true
+}));
+app.use(express.json());
+
 
 // Basic Test Route
 app.get('/', (req, res) => {
@@ -47,7 +48,7 @@ app.use((req, res, next) => {
 // Global Error Handler (Agar code mein koi crash/error aaye)
 app.use((err, req, res, next) => {
   console.error("SERVER ERROR:", err); // Terminal mein error print karega
-  res.status(500).json({ 
+  res.status(500).json({
     message: err.message || 'Internal Server Error',
     stack: process.env.NODE_ENV === 'production' ? null : err.stack
   });

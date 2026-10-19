@@ -40,7 +40,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-bold text-gray-800 text-lg">Call Us</h3>
                 <p className="text-gray-500 text-sm mb-1">Mon-Sat from 9am to 6pm.</p>
-                <p className="font-semibold text-gray-800">+91 8808411508</p>
+                <p className="font-semibold text-gray-800">+91 9696008704</p>
               </div>
             </div>
 

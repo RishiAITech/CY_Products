@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-const api = axios.create({
-  baseURL: '/api', // Vite proxy isse http://localhost:5001/api par bhej dega
-});
-
 // const api = axios.create({
-//   baseURL: 'https://cy-backend.vercel.app/api', // Backend URL + /api
+//   baseURL: '/api', // Vite proxy isse http://localhost:5001/api par bhej dega
 // });
+
+const api = axios.create({
+  baseURL: 'https://cy-products.vercel.app/api', // Backend URL + /api
+});
 
 // Har request ke saath token bhejne ke liye interceptor
 api.interceptors.request.use((config) => {

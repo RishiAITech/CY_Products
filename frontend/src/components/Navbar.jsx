@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="bg-[#111] text-gray-300 text-xs py-2 px-4 md:px-8 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <span> All India Shipping</span>
-          <span className="hidden md:inline">📞 +91 8808411508</span>
+          <span className="hidden md:inline">📞 +91 9696008704</span>
           <span className="hidden md:inline">✉️ support@cyproducts.in</span>
         </div>
         <div className="flex items-center gap-4">

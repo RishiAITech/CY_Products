@@ -51,7 +51,7 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Connect With Us</h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li>📞 +91 8808411508</li>
+            <li>📞 +91 9696008704</li>
             <li>✉️ support@cyproducts.in</li>
           </ul>
         </div>
