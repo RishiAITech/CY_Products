@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="cOuter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#71f5ff"/>
+      <stop offset=".28" stop-color="#12bdf8"/>
+      <stop offset=".62" stop-color="#0878f4"/>
+      <stop offset="1" stop-color="#0038bd"/>
+    </linearGradient>
+    <linearGradient id="cInner" x1=".1" y1="0" x2=".85" y2="1">
+      <stop offset="0" stop-color="#003bbf"/>
+      <stop offset=".45" stop-color="#006ef4"/>
+      <stop offset="1" stop-color="#00318e"/>
+    </linearGradient>
+    <linearGradient id="yFill" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".48" stop-color="#f4f8ff"/>
+      <stop offset="1" stop-color="#9eafc5"/>
+    </linearGradient>
+    <linearGradient id="yShade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dce8f7"/>
+      <stop offset="1" stop-color="#8295ae"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#000"/>
+  <!-- Sculpted blue C ribbon -->
+  <path d="M590 258 C510 195 405 196 315 224 C194 262 116 360 101 478 C83 623 165 765 301 818 C402 858 515 831 598 761 L542 679 C481 729 406 752 335 730 C239 701 182 613 190 513 C197 421 256 348 341 326 C405 309 465 321 514 353 Z" fill="url(#cOuter)"/>
+  <path d="M590 258 C548 238 496 235 451 244 C362 262 294 326 270 405 C243 495 266 594 332 650 C383 694 450 704 510 681 L542 679 C481 729 406 752 335 730 C239 701 182 613 190 513 C197 421 256 348 341 326 C405 309 465 321 514 353 Z" fill="url(#cInner)" opacity=".92"/>
+  <path d="M315 224 C194 262 116 360 101 478 C83 623 165 765 301 818 C370 845 445 841 508 814 C425 851 328 839 251 794 C139 729 83 615 97 496 C110 381 186 280 300 239 Z" fill="#35d9ff" opacity=".25"/>
+  <!-- Silver folded Y -->
+  <path d="M458 300 L567 300 C594 300 614 312 632 338 L683 410 L818 235 L956 235 L756 488 C737 512 721 532 721 562 L721 731 C721 753 711 768 690 780 L602 829 L602 555 C602 531 594 513 578 491 Z" fill="url(#yFill)"/>
+  <path d="M602 555 C602 531 594 513 578 491 L458 300 L516 300 L642 469 C658 491 665 510 665 535 L665 796 L602 829 Z" fill="url(#yShade)" opacity=".7"/>
+  <path d="M683 410 L818 235 L956 235 L756 488 C737 512 721 532 721 562 L665 535 C665 510 658 491 642 469 Z" fill="#fff" opacity=".32"/>
+</svg>
